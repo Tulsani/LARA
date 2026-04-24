@@ -171,7 +171,7 @@ The proposed approach significantly improves robustness:
 ## Visualizations
 
 ```md
-![Stable Layers](activation_alg_3.3/layer_kl_analysis.png)
-![Noise Divergence](activation_alg_3.3/layer_noise_divergence.png)
-![Model Architecture](activation_alg_3.3/Model-architecture.png)
+![Stable Layers](statics/layer_kl_analysis.png)
+![Noise Divergence](statics/layer_noise_divergence.png)
+![Model Architecture](statics/Model-architecture.png)
 
