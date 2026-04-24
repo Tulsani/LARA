@@ -7,6 +7,8 @@ This approach identifies stable intermediate layers and enforces latent alignmen
 
 This leads to significant improvements in robustness, achieving +15% absolute accuracy gains over standard SFT on noisy inputs.
 
+![Model Architecture](statics/Model-architecture.png)
+
 ## Beyond Pure Textual Alignment
 
 While chain-of-thought alignment on noisy samples trains the model to produce clean traces, it does not constrain how the model internally processes noise. We extend our SFT experiments with **activation-level alignment** by directly constraining hidden states at stable layers.
@@ -37,6 +39,8 @@ Low values indicate convergence and stability respectively.
 
 We select candidate layers using percentile thresholds on both metrics and take their **intersection**.
 
+
+![Noise Divergence](statics/layer_noise_divergence.png)
 ---
 
 #### Observations
@@ -50,6 +54,9 @@ Since no overlap exists, we select **layer bands**:
 - Early: `6–9`
 - Middle: `18–20`
 - Late: `23–25`
+
+
+![Noise Divergence](statics/layer_noise_divergence.png)
 
 ---
 
@@ -171,7 +178,4 @@ The proposed approach significantly improves robustness:
 ## Visualizations
 
 ```md
-![Stable Layers](statics/layer_kl_analysis.png)
-![Noise Divergence](statics/layer_noise_divergence.png)
-![Model Architecture](statics/Model-architecture.png)
 
