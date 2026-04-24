@@ -40,7 +40,7 @@ Low values indicate convergence and stability respectively.
 We select candidate layers using percentile thresholds on both metrics and take their **intersection**.
 
 
-![Noise Divergence](statics/layer_noise_divergence.png)
+![Noise Divergence](statics/layer_kl_analysis.png)
 ---
 
 #### Observations
