@@ -164,7 +164,7 @@ The proposed approach significantly improves robustness:
 - **Standard SFT:** 31.3% accuracy  
 - **Ours:** 48.4% accuracy  
 
-➡️ **+15% absolute improvement on noisy inputs**
+ **+15% absolute improvement on noisy inputs**
 
 ---
 
