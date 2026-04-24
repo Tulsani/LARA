@@ -71,7 +71,7 @@ from tqdm import tqdm
 
 
 
-DEFAULT_MODEL       = "jahyungu/Qwen2.5-1.5B-Instruct_gsm8k"
+DEFAULT_MODEL       = ""
 DEFAULT_HOOK_LAYERS = [8, 18, 19]
 DEFAULT_PROJ_DIM    = 256
 IGNORE_INDEX        = -100   # standard HuggingFace ignore index for CE loss
