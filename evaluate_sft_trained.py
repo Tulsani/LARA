@@ -18,7 +18,7 @@ Metrics reported:
   - Recovery rate        : how many noisy failures by base model are fixed by trained model
 
 Usage:
-    python eval_noise_robust.py \
+    python eval_sft_trained.py \
         --test-jsonl  dataset/gsm8k_adv_test.jsonl \
         --base-model  jahyungu/Qwen2.5-1.5B-Instruct_gsm8k \
         --trained-model checkpoints_noise_robust/checkpoint_epoch3_step4449 \
